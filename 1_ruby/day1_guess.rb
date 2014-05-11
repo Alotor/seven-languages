@@ -6,7 +6,7 @@
 
 puts "I'm thinking in a number from 1 to 10"
 
-target_number = 1 + rand 10
+target_number = 1 + rand(10)
 
 begin
     puts "Tell me your guess... #{target_number}"
